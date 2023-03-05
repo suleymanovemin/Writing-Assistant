@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
+}
+.textdiv{
+    width: 100%;
+    height: 100vh;
+    /* min-height: 1220px; */
+    background-color: rgb(36, 34, 34);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.textarea{
+    width: 500px;
+    height: max-content;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+p{
+    text-align: center;
+    max-width: 300px;
+    /* background-color: rgb(36, 34, 34); */
+    margin-top: 10px;
+    /* border-top: 8px solid rgb(36, 34, 34) ; */
+}
