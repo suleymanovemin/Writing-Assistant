@@ -15,7 +15,9 @@ recognition.addEventListener("result",(e)=>{
     if (openPage === "YouTube'u aç") {
         console.log("salam");
         window.open("https://www.youtube.com/", "_blank");
-      }
+      }else if (openPage === "Instagram aç"){
+         window.open("https://www.instagram.com/emin_su1eymanov/", "_blank");
+    }        
 })
 recognition.addEventListener("end",()=>{
 
